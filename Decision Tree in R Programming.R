@@ -27,7 +27,7 @@ ctree(formula, data)
 
 # testing the people who are native speakers
 # and those who are not
-predict_model<-predict(ctree_, test_data)
+predict_model<-predict(ctree_, test_data) 
 
 # creates a table to count how many are classified
 # as native speakers and how many are not   
