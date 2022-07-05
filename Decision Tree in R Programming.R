@@ -7,7 +7,7 @@ library(magrittr)
 data("readingSkills")
 head(readingSkills)         
 
-#Splitting dataset into 4:1 ratio for train and test data   
+#Splitting dataset into 4:1 ratio for train and test dataa  
 
 sample_data = sample.split(readingSkills, SplitRatio = 0.8)
 train_data <- subset(readingSkills, sample_data == TRUE)
