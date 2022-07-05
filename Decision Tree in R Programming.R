@@ -23,7 +23,7 @@ plot(model)
 
 ctree(formula, data) 
 
-#Making a prediction
+#Making a predictionn    
 
 # testing the people who are native speakers
 # and those who are not
