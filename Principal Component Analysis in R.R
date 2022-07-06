@@ -10,7 +10,7 @@ str(mtcars.pca)
 
 library(devtools)
 install_github("vqv/ggbiplot")
-
+   
 ggbiplot(mtcars.pca)
 
 ggbiplot(mtcars.pca, labels=rownames(mtcars))
