@@ -27,7 +27,7 @@ ggbiplot(mtcars.pca,ellipse=TRUE,choices=c(3,4),
          
          labels=rownames(mtcars), groups=mtcars.country)
 
-#Graphical parameters withggbiplot
+#Graphical parameters withggbiplot    
 
 ggbiplot(mtcars.pca,ellipse=TRUE,circle=TRUE, labels=rownames(mtcars), groups=mtcars.country)
 
