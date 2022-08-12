@@ -45,4 +45,4 @@ iris$clstr<-iris_kmeans$cluster
 # cross-validation with original species available in data
 
 iris$clstr<-iris_kmeans$cluster 
-table(iris$Species,iris$clstr 
+table(iris$Species,iris$clstr  
