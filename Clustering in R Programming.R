@@ -4,7 +4,7 @@
 #Loading iris dataset
 data(iris)
 
-#Viewing the head of iris
+#Viewing the head of iris 
 head(iris)
 
 #Removing "Species column"
