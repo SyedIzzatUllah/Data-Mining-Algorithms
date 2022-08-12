@@ -14,7 +14,7 @@ head(iris_2)
 #Standardize data
 iris_3<-as.data.frame(scale(iris_2))
 head(iris_3)
-
+ 
 
 #Checking Mean and SD of data before and after standardization
 sapply(iris_2,mean)
