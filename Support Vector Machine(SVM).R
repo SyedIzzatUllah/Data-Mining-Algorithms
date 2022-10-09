@@ -29,7 +29,7 @@ test_set[-3] = scale(test_set[-3])
 
 # Fitting SVM to the Training set
 install.packages('e1071')
-library(e1071)
+library(e1071) 
 
 classifier = svm(formula = Purchased ~ .,
                  data = training_set,
