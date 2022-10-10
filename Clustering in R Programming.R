@@ -11,7 +11,7 @@ head(iris)
 iris_2<-iris[-5]
 head(iris_2)
 
-#Standardize data
+#Standardize data 
 iris_3<-as.data.frame(scale(iris_2))
 head(iris_3)
  
