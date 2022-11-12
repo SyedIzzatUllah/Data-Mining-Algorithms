@@ -22,7 +22,7 @@ plot(model)
 #The basic syntax for creating a decision tree in R is: 
 
 ctree(formula, data)  
-
+ 
 #Making a predictionn     
 
 # testing the people who are native speakers
