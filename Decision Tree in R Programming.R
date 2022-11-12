@@ -32,7 +32,7 @@ predict_model<-predict(ctree_, test_data)
 # creates a table to count how many are classified
 # as native speakers and how many are not   
 m_at <- table(test_data$nativeSpeaker, predict_model)
-m_at    
+m_at     
 
 #Determining the accuracy of the model developed 
 
