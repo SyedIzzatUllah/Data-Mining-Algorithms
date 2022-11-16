@@ -12,7 +12,7 @@ dataset = dataset[3: 5]
 dataset$Purchased = factor(dataset$Purchased, levels = c(0, 1))
 
 # Splitting the dataset into the Training set and Test set
-install.packages('caTools')
+install.packages('caTools') 
 library(caTools) 
 
 set.seed(123)
