@@ -66,7 +66,7 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'coral1', 'aquamarine'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 
 set = test_set
-X1 = seq(min(set[, 1]) - 1, max(set[, 1]) + 1, by = 0.01)
+X1 = seq(min(set[, 1]) -  1, max(set[, 1]) + 1, by = 0.01)
 X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
 
 grid_set = expand.grid(X1, X2)
