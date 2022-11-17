@@ -6,7 +6,7 @@ summary(mtcars.pca)
 
 str(mtcars.pca) 
 
-#Plotting PCA
+#Plotting PCA 
 
 library(devtools)
 install_github("vqv/ggbiplot")
