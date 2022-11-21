@@ -34,7 +34,7 @@ wssplot <- function(data, nc=15, seed=1234){
        ylab="Within groups sum of squares")}
 
 # calling function wssplot()
-wssplot(iris_3,nc=30,seed=1234)
+wssplot(iris_3,nc=30,seed= 1234)
 
 # fitting the clusters
 iris_kmeans<-kmeans(iris_3, 7)
