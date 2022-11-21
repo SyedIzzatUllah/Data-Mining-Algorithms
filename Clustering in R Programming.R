@@ -20,7 +20,7 @@ head(iris_3)
 sapply(iris_2,mean)
 sapply(iris_2, sd)
 sapply(iris_3,mean)
-sapply(iris_3,sd)
+sapply(iris_3, sd)
 
 library(NbClust)
 
