@@ -42,7 +42,7 @@ iris_kmeans$centers
 iris_kmeans$size
 iris$clstr<-iris_kmeans$cluster
 
-# cross-validation with original species available in data
+# cross-validation with original species available in data 
 
 iris$clstr<-iris_kmeans$cluster 
 table(iris$Species,iris$clstr  
