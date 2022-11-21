@@ -18,7 +18,7 @@ head(iris_3)
 
 #Checking Mean and SD of data before and after standardization
 sapply(iris_2,mean)
-sapply(iris_2,sd)
+sapply(iris_2, sd)
 sapply(iris_3,mean)
 sapply(iris_3,sd)
 
