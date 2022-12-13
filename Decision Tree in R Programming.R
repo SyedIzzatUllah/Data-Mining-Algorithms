@@ -34,7 +34,7 @@ predict_model<-predict(ctree_, test_data)
 m_at <- table(test_data$nativeSpeaker, predict_model)
 m_at     
 
-#Determining the accuracy of the model developed 
+# Determining the accuracy of the model developed 
 
 ac_Test < - sum(diag(table_mat)) / sum(table_mat)
 print(paste('Accuracy for test is found to be', ac_Test))
