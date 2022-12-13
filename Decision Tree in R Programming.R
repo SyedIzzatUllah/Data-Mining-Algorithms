@@ -24,8 +24,8 @@ plot(model)
 ctree(formula, data)  
  
 #Making a predictionn     
-
-# testing the people who are native speakers
+ 
+# testing the  people who are native speakers
 # and those who are not
 predict_model<-predict(ctree_, test_data) 
 
