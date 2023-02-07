@@ -5,7 +5,7 @@
 data(iris)
 
 #Viewing the head of iris 
-head(iris)
+head(iris) 
 
 #Removing "Species column"
 iris_2<-iris[-5] 
