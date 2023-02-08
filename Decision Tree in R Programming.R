@@ -9,7 +9,7 @@ head(readingSkills)
 
 #Splitting dataset into 4:1 ratio for train and test dataa accrod 
 
-sample_data =  sample.split(readingSkills, SplitRatio = 0.8)
+sample_data = sample.split(readingSkills, SplitRatio = 0.8)
 train_data <- subset(readingSkills, sample_data ==  TRUE)
 test_data <- subset(readingSkills, sample_data == FALSE)
 
