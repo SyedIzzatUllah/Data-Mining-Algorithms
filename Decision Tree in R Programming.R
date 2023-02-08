@@ -19,7 +19,7 @@ model<- ctree(nativeSpeaker ~ ., train_data)
 plot(model)
 
 
-#The basic syntax for creating a decision tree in R is: 
+#The basic syntax for creating decision tree in R is: 
 
 ctree(formula, data)  
  
