@@ -4,7 +4,7 @@ library(party)
 library(dplyr)      
 library(magrittr)
  
-data("readingSkills ") 
+data("readingSkills") 
 head(readingSkills)         
 
 #Splitting dataset into 4:1 ratio for train and test dataa accrod 
