@@ -9,7 +9,7 @@ str(mtcars.pca)
 #Plotting PCA
 
 library(devtools)
-install_github("vqv/ggbiplot")
+install_github("vqv/ggbiplot") 
    
 ggbiplot(mtcars.pca)
 
