@@ -8,7 +8,7 @@ data(iris)
 head(iris) 
 
 #Removing "Species column"
-iris_2<-iris[-5] 
+iris_2<-iris[-5]
 head(iris_2)
 
 #Standardize data 
