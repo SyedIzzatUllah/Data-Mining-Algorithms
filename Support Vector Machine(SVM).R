@@ -13,7 +13,7 @@ dataset$Purchased = factor(dataset$Purchased, levels = c(0, 1))
 
 # Splitting the dataset into the Training set and Test set
 install.packages('ca Tools') 
-library(caTools) 
+library(caTools)
 
 set.seed(123)
 split = sample.split(dataset$Purchased, SplitRatio =  0.75)
